@@ -1,5 +1,5 @@
 {% set name = "pt.darts" %}
-{% set version = "0.2" %}
+{% set version = "0.3" %}
 
 package:
   name: {{ name.replace("pt.", "") }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/khanrc/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: b0c4689cdabc5fdec0ba3c829057aa2cb94f9a97036cf5ae545de6247d301e9c
+  sha256: d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed
 
 build:
   number: 0
